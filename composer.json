@@ -17,20 +17,17 @@
     "handling",
     "exception"
   ],
-  "require": {
+
+  "require-dev": {
+    "filp/whoops": "~1.1",
     "symfony/http-foundation" : "~2.1",
     "symfony/http-kernel" : "~2.1",
-    "php" : ">=5.4"
+    "silex/silex": "~1.2"
   },
-  "require-dev" : {
-    "stack/builder" : "~1.0",
-    "silex/silex" : "~1.0",
-    "phpunit/phpunit" : "~3.7",
-    "filp/whoops": "~1.1"
-  },
+
   "autoload" : {
     "psr-4" : {
-      "DHazelett\\Stack\\" : "src/"
+      "Saphire\\Stack\\" : "src/"
     }
-  },
+  }
 }
