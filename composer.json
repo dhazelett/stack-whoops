@@ -27,7 +27,7 @@
 
   "autoload" : {
     "psr-4" : {
-      "Saphire\\Stack\\" : "src/"
+      "Saphire\\Middleware\\" : "src/"
     }
   }
 }
