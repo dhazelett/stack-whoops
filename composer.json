@@ -1,0 +1,36 @@
+{
+  "name": "dhazelett/stack-whoops",
+  "description": "Stack Middleware for Whoops, the cool kids error handler.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Devon Hazelett",
+      "email": "devon.hazelet@devxdev.com"
+    }
+  ],
+  "keywords" : [
+    "stack",
+    "stack middleware",
+    "whoops",
+    "silex",
+    "error",
+    "handling",
+    "exception"
+  ],
+  "require": {
+    "symfony/http-foundation" : "~2.1",
+    "symfony/http-kernel" : "~2.1",
+    "php" : ">=5.4"
+  },
+  "require-dev" : {
+    "stack/builder" : "~1.0",
+    "silex/silex" : "~1.0",
+    "phpunit/phpunit" : "~3.7",
+    "filp/whoops": "~1.1"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "DHazelett\\Stack\\" : "src/"
+    }
+  },
+}
