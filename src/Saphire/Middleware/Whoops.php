@@ -49,7 +49,7 @@ class Whoops implements HttpKernelInterface
 
         } elseif (is_string($this->options['handler'])) {
 
-            $handler->pushHandler($this->options['handler']);
+            $handler->pushHandler(new $this->options['handler']);
 
         } else {
 
