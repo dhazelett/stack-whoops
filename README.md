@@ -7,7 +7,6 @@ This Middleware has no tests, I honestly don't have time to write exception catc
 ## Usage
 
 ```php
-
 use Silex\Application;
 use Stack\Builder;
 
@@ -22,7 +21,7 @@ $stack = (new Builder)
     ])
 ;
 
-// Try it out (or throw one in a controller)
+// Try it out
 $app->get('/', function() {
     throw new \Exception('Oh No!');
 });
