@@ -2,7 +2,7 @@
 Stack Middleware for Whoops, the cool kids error handler.
 
 ## Warning!
-This Middleware has no tests, I honestly don't have time to write exception catching unit tests, I have a newborn. I really just wanted a middleware for whoops+stack. _feel free to send a PR with tests if it's that important_
+This Middleware has no tests. I really just wanted a middleware for whoops+stack. _feel free to send a PR with tests if it's that important_
 
 ## Usage
 
